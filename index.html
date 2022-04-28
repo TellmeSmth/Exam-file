@@ -1,13 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>58</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body class="site-body">
+    <h1 class="visually-hidden">Portfolio of Junior Web Developer</h1>
+    <header class="site-header">
+      <nav class="site-header__nav container">
+        <a class="site-header__link" href="index.html">
+          <img
+            class="site-header__link-img"
+            src="./icons/logo-dark.svg"
+            alt="logo"
+            width="60"
+            height="32"
+          />
+        </a>
+        <ul class="site-header__list site-header__list--active">
+          <li class="site-header__list-item">
+            <a class="site-header__item-link" target="blank" href="index.html"> home </a>
+          </li>
 
+          <li class="site-header__list-item">
+            <a class="site-header__item-link" href="#"> portfolio </a>
+          </li>
 
-</body>
+          <li class="site-header__list-item">
+            <a class="site-header__item-link" href="#"> contact me </a>
+          </li>
+        </ul>
+        <button class="site-header__btn">---</button>
+      </nav>
+    </header>
+
+    <main class="site-main container">
+      <section class="intro-section">
+        <div class="intro-section__wrapper">
+          <h2 class="intro-section__heading">
+            Hey, I’m Alex Spencer and I love building beautiful websites
+          </h2>
+          <button class="intro-section__btn">
+            <span class="intro-section__img-wrapper">
+              <img
+                class="intro-section__btn-img"
+                src="./icons/linears.svg"
+                alt="linears"
+                width="16"
+                height="12"
+              />
+              <a class="intro-section__desc" href="#"> about me </a>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="hero-section">
+        <picture class="hero-section__picture">
+          <source media="(max-width:375px)" srcset="img/heroimg.webp" />
+          <source media="(max-width:786px)" srcset="img/heroimg.avif" />
+          <img
+            class="hero-section__img"
+            src="img/heroimg.jpg"
+            alt="Flowers"
+            width="540"
+            height="600"
+          />
+        </picture>
+        <div class="hero-section__content-wrapper">
+          <h2 class="hero-section__heading">About Me</h2>
+          <p class="hero-section__desc">
+            I’m a junior front-end developer looking for a new role in an
+            exciting company. I focus on writing accessible HTML, using modern
+            CSS practices and writing clean JavaScript. When writing JavaScript
+            code, I mostly use React, but I can adapt to whatever tools are
+            required. I’m based in London, UK, but I’m happy working remotely
+            and have experience in remote teams. When I’m not coding, you’ll
+            find me outdoors. I love being out in nature whether that’s going
+            for a walk, run or cycling. I’d love you to check out my work.
+          </p>
+          <a class="hero-section__link" href="#">GO TO PORTFOLIO</a>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2 class="projects-section__heading">
+          Interested in doing a project together?
+        </h2>
+        <div class="project-section__line"></div>
+        <a class="projects-section__link" href="#">contact me</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__wrapper container">
+        <nav class="site-footer__nav">
+          <ul class="site-footer__list">
+            <li class="site-footer__list-item">
+              <a class="site-footer__logo-img" target="blank" href="index.html">
+                <img
+                  src="./icons/logo-light.svg"
+                  alt="logo"
+                  width="60"
+                  height="32"
+                />
+              </a>
+            </li>
+            <li class="site-footer__list-item">
+              <a href="index.html" class="site-footer__item-link">home</a>
+            </li>
+
+            <li class="site-footer__list-item">
+              <a href="#" class="site-footer__item-link">portfolio</a>
+            </li>
+
+            <li class="site-footer__list-item">
+              <a href="#" class="site-footer__item-link">contact me</a>
+            </li>
+          </ul>
+          <ul class="site-footer__second-list">
+            <li class="site-footer__second-list-item">
+              <a
+                class="site-footer__second-item-link"
+                target="blank"
+                href="github.com"
+              >
+                <img
+                  class="site-footer__second-item-img"
+                  src="./icons/github.svg"
+                  alt="github"
+                  width="25"
+                  height="24"
+                />
+              </a>
+            </li>
+
+            <li class="site-footer__second-list-item">
+              <a
+                class="site-footer__second-item-link"
+                target="blank"
+                href="twitter.com"
+              >
+                <img
+                  class="site-footer__item-img"
+                  src="./icons/twitter.svg"
+                  alt="github"
+                  width="24"
+                  height="19"
+                />
+              </a>
+            </li>
+
+            <li class="site-footer__second-list-item">
+              <a
+                class="site-footer__second-item-link"
+                target="blank"
+                href="linkedin.com"
+              >
+                <img
+                  class="site-footer__second-item-img"
+                  src="./icons/linkedin.svg"
+                  alt="github"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
