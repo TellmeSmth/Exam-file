@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .intouch-section__heading {
   margin: 0;
   font-family: $Ibarra;
@@ -11,8 +12,7 @@
   letter-spacing: -0.357143px;
   color: $color-primary;
 }
-// .intouch-section__wrapper {
-// }
+
 .intouch-section__desc {
   max-width: 635px;
   margin: 0;
@@ -24,16 +24,14 @@
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
 .intouch-section__list {
   @include list-unstyled;
   display: flex;
 }
+
 .intouch-section__list-item {
   &:not(:first-child) {
     margin-left: 16px;
   }
 }
-// .intouch-section__item-link {
-// }
-// .intouch-section__item-img {
-// }

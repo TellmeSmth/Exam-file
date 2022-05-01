@@ -29,10 +29,6 @@
 }
 
 .contact-site-header__item-link {
-  &:hover {
-    transform: scale(2);
-    color: $greensy;
-  }
   font-family: $PublicSans;
   font-weight: 400;
   font-size: 12px;
@@ -42,6 +38,9 @@
   color: $color-primary;
   text-decoration: none;
   transition: 0.3s all ease;
+  &:hover {
+    color: $greensy;
+  }
 }
 
 .contact-site-header__btn {

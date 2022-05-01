@@ -22,7 +22,9 @@
         </a>
         <ul class="site-header__list site-header__list--active">
           <li class="site-header__list-item">
-            <a class="site-header__item-link" target="blank" href="index.html"> home </a>
+            <a class="site-header__item-link" target="blank" href="index.html">
+              home
+            </a>
           </li>
 
           <li class="site-header__list-item">
@@ -33,7 +35,16 @@
             <a class="site-header__item-link" href="#"> contact me </a>
           </li>
         </ul>
-        <button class="site-header__btn">---</button>
+        <button
+          class="site-heder__btn"
+        >
+          <img
+            style="display: block"
+            class="site-header__btn-img"
+            src="./img2/icons/burger.svg"
+            alt="lines"
+          />
+        </button>
       </nav>
     </header>
 
@@ -52,23 +63,16 @@
                 width="16"
                 height="12"
               />
-              <a class="intro-section__desc" href="#"> about me </a>
+              <span class="intro-section__desc"> about me </span>
             </span>
           </button>
         </div>
       </section>
 
       <section class="hero-section">
-        <picture class="hero-section__picture">
-          <source media="(max-width:375px)" srcset="img/heroimg.webp" />
-          <source media="(max-width:786px)" srcset="img/heroimg.avif" />
-          <img
-            class="hero-section__img"
-            src="img/heroimg.jpg"
-            alt="Flowers"
-            width="540"
-            height="600"
-          />
+        <picture class="hero-section__img">
+          <source srcset="./img2/hero-tablet.png" media="(max-width: 775px)" />
+          <img src="./img2/hero.png" alt="human" />
         </picture>
         <div class="hero-section__content-wrapper">
           <h2 class="hero-section__heading">About Me</h2>
@@ -102,6 +106,7 @@
             <li class="site-footer__list-item">
               <a class="site-footer__logo-img" target="blank" href="index.html">
                 <img
+                  class="site-footer__link-img"
                   src="./icons/logo-light.svg"
                   alt="logo"
                   width="60"

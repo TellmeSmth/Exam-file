@@ -16,6 +16,12 @@
   display: block;
 }
 
+.site-header__btn {
+  border: none;
+  background-color: #fff;
+  display: none;
+}
+
 .site-header__list {
   @include list-unstyled;
   display: flex;
@@ -73,7 +79,7 @@
   }
 }
 
-@include breakpoint-down (380px) {
+@include breakpoint-down(380px) {
   .site-header__list {
     @include list-unstyled;
     display: block;

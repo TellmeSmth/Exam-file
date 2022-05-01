@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1110px;
   height: 600px;
-  background-image: url(../../img/mainphoto.png);
+  background-image: url(../../img2/desctop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,6 +35,7 @@
 .intro-section__btn {
   border: none;
   background-color: $dark-green;
+  padding: 0;
 }
 
 .intro-section__img-wrapper {
@@ -76,7 +77,7 @@
 
   .intro-section {
     width: 100%;
-    background-image: url(../../img/IMac-Tablet.jpg);
+    background-image: url(../../img2/tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,7 +90,7 @@
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    background-image: url(../../img/IMac-Mobile.jpg);
+    background-image: url(../../img2/mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
